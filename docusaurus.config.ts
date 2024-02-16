@@ -45,14 +45,13 @@ const config: Config = {
   ],
   presets: [
     [
-      "classic",
+      "@docusaurus/preset-classic",
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
         },
-        blog: {
-          showReadingTime: true,
-        },
+        blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -132,7 +131,7 @@ const config: Config = {
           items: [
             {
               label: "Tutorial",
-              to: "/docs/intro",
+              to: "/",
             },
             {
               label: "API Reference",

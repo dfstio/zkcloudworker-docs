@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+slug: /
 ---
 
-# zkCloudWorker
+# Introduction to zkCloudWorker
 
 ![zkCloudWorker](/img/zkCloudWorker.png)
 
@@ -16,70 +17,8 @@ Privacy is maintained through the isolation of processes, encryption of all data
 
 This opens doors for a diverse range of Web2 developers to seamlessly enter the exciting world of the MINA protocol and o1js.
 
-## Features
+According to our POC tests, with zkCloudWorker, the speed of the calculations can be as much as 5 to 10 times faster (seconds instead of minutes), and the memory requirements can be 10 times lower.
 
-- Compiling the contract in the cloud.
+With more than 22 thousand active open-source developers that contribute to crypto and the Mina ecosystem being the second fastest growing ecosystem by the number of full-time developers, we expect the demand for cloud-proving services to rise significantly in the future.
 
-- Calculating transactions proofs tx.prove().
-
-- Calculating recursive proofs.
-
-- Sending transactions to network.
-
-- Verifying proofs.
-
-- Providing deployers to pay the tx fee.
-
-- API to be accessed inside the zkCloudWorker.
-
-- API to be accessed inside the web application.
-
-- Billing panel to show the cost of the running zkCloudWorkers to the developer.
-
-- Web dashboard to easily deploy and access deployed zkCloudWorkers and their logs.
-
-- Providing key-value off-chain storage for zkApps, up to 400K size for values.
-
-- Providing file storage for zkApps, unlimited size.
-
-- Encryption utilities for sending and storing the data in the encrypted form.
-
-- Verifying the text of the contracts for uploading to the minascan.io explorer.
-
-- Providing additional metadata for the transactions, including custom metadata defined by the developer and the conversion of the actions and events to the human-readable form as defined by the developer for publishing on the minascan.io explorer.
-
-- Code templates and question-answer sets for the zkApp Umstad AI Chatbot.
-
-- The CLI tool to deploy the code to the cloud and verify the code on the minascan.io.
-
-- Availability of the zkCloudWorker for SmartContract, ZkProgram and general calculations, including running ProtoKit chains in case ProtoKit will support running on the serverless infrastructure, that is possible in principle.
-
-- Custom integration of the zkApps for the cases that do not fit in the standard framework for some reason.
-
-## Installation
-
-```
-yarn add zkcloudworker
-```
-
-## Documentation
-
-https://docs.zkcloudworker.com
-
-## Website
-
-https://zkcloudworker.com
-
-## Library on NPM
-
-https://www.npmjs.com/package/zkcloudworker
-
-## Homomorphic Encryption Example
-
-https://github.com/dfstio/he-contract-demo
-
-## Faucet
-
-https://faucet.minaprotocol.com
-
-https://minanft.io/faucet
+The market is already actively moving in the direction of cloud proving. The Nil Foundation has raised $22 million to build proof market in a round led by Polychain Capital with the participation of other investors, including Blockchain Capital, Starkware, and Mina Protocol.
